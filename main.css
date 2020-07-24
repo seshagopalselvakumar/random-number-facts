@@ -1,0 +1,87 @@
+body{
+    height: 100vh;
+    padding: 10px;
+    background: linear-gradient(217deg, rgba(179, 51, 51, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(73, 201, 156, 0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(24, 24, 98, 0.8), rgba(0,0,255,0) 70.71%);
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: 0.3s;
+}
+.heading
+{
+    color: #fff;
+    text-align: center;
+    margin: 40px 0px 0px 0px;
+    font-size: 3em;
+}
+.list-inline-item
+{
+    transition: 0.2s;
+    background: rgb(230, 230, 230);
+    color: #000;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    font-size: 17.5px;
+}
+.list-inline-item:hover
+{
+    font-size: 22.5px !important ; 
+    text-shadow: #fff 0px 0px 2px !important;
+    cursor: pointer;
+}
+.list-inline-item:active
+{
+    font-size: 20px !important ; 
+    text-shadow: #fff 0px 0px 2px !important;
+    cursor: pointer;
+}
+.list-inline-item:nth-child(1):hover
+{
+    color: rgb(255, 145, 0);
+}
+.list-inline-item:nth-child(2):hover
+{
+    color: rgb(187, 255, 0);
+}
+.list-inline-item:nth-child(3):hover
+{
+    color: rgb(0, 55, 255);
+}
+.list-inline-item:nth-child(4):hover
+{
+    color: rgb(30, 0, 255);
+}
+#fact, #enterText, #numberInput
+{
+    display: none;
+}
+.footer
+{
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 200px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.link
+{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+.link:hover
+{
+    color: #fff;
+    text-decoration: none;
+    text-shadow: rgb(228, 228, 228) 0px 0px 4px;
+}
+.fa-heart
+{
+    color: #d31919;
+}
+.fa-code
+{
+    color: #81dd00;
+}

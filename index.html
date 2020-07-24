@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random number facts</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="bg-dark">
+    <div class="container">
+        <h1 class="heading">RANDOM NUMBER FACTS</h1>
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card p-4 mt-5">
+                    <h4 class="display-6 text-center m-md-3">Choose the option you want:</h4>
+                    <ul class="list-inline text-center">
+                        <li id="numberList" class="list-inline-item" onclick="number()">Number</li>
+                        <li id="dateList" class="list-inline-item" onclick="date()">Date</li>
+                        <li id="yearList" class="list-inline-item" onclick="year()">Year</li>
+                        <li id="mathList" class="list-inline-item" onclick="math()">Math</li>
+                    </ul>
+                    <p id="enterText">Enter a number and get a random fact</p>
+                    <input type="number" class="form-control form-control-lg" id="numberInput" placeholder="Enter any number...">
+                    <div id="fact" class="card-body">
+                        <h4 class="card-title" id="factTitle">
+                            Number fact:
+                        </h4>
+                        <p id="factText" class="card-text">
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <a href="https://seshagopalselvakumar.github.io/" class="link"><h5><i class="fas fa-code"></i> with <i class="fas fa-heart"></i> by Seshagopal Selvakumar</h5></a>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
